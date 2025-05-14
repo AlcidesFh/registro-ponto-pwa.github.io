@@ -1,0 +1,1 @@
+// Conteúdo do registro.js aqui
