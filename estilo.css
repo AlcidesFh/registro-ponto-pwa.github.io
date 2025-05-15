@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.escuro {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h1, h2 {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #888;
+    padding: 8px;
+    text-align: center;
+}
+
+.escuro table th, .escuro table td {
+    border-color: #ccc;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+.escuro thead {
+    background-color: #444;
+}
+
+.botoes {
+    margin-bottom: 15px;
+}
